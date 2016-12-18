@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CRProtocolManager"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A short description of CRProtocolManager."
 
   s.description  = <<-DESC
@@ -127,4 +127,4 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
   # s.social_media_url   = "http://twitter.com/15370989688"
-Tend
+end
