@@ -15,6 +15,7 @@
 		90C39E0D1E0682D000800668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C39E0B1E0682D000800668 /* LaunchScreen.storyboard */; };
 		90C39E181E0682D000800668 /* CRProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C39E171E0682D000800668 /* CRProtocolManagerTests.m */; };
 		90C39E231E0682D100800668 /* CRProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C39E221E0682D100800668 /* CRProtocolManagerUITests.m */; };
+		90C39E331E06868700800668 /* CRProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C39E321E06868700800668 /* CRProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		90C39E1E1E0682D100800668 /* CRProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C39E221E0682D100800668 /* CRProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManagerUITests.m; sourceTree = "<group>"; };
 		90C39E241E0682D100800668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C39E311E06868700800668 /* CRProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRProtocolManager.h; sourceTree = "<group>"; };
+		90C39E321E06868700800668 /* CRProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		90C39DFC1E0682D000800668 /* CRProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
+				90C39E301E0682F500800668 /* CRProtocolManager */,
 				90C39E001E0682D000800668 /* AppDelegate.h */,
 				90C39E011E0682D000800668 /* AppDelegate.m */,
 				90C39E031E0682D000800668 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				90C39E241E0682D100800668 /* Info.plist */,
 			);
 			path = CRProtocolManagerUITests;
+			sourceTree = "<group>";
+		};
+		90C39E301E0682F500800668 /* CRProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				90C39E311E06868700800668 /* CRProtocolManager.h */,
+				90C39E321E06868700800668 /* CRProtocolManager.m */,
+			);
+			path = CRProtocolManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C39E331E06868700800668 /* CRProtocolManager.m in Sources */,
 				90C39E051E0682D000800668 /* ViewController.m in Sources */,
 				90C39E021E0682D000800668 /* AppDelegate.m in Sources */,
 				90C39DFF1E0682D000800668 /* main.m in Sources */,
